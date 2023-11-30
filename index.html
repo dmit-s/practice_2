@@ -3,7 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="inputs-wrapper">
+        <input id="input-text" type="text" placeholder="Text">
+        <input id="input-number" type="number" placeholder="Number">
+      </div>
+      <div class="buttons-wrapper">
+        <button id="btn-log">Log</button>
+        <button id="btn-clear">Clear Input</button>
+        <button id="btn-block">Block Input</button>
+        <button id="btn-hide">Hide Input</button>
+        <button id="btn-color">Random Color</button>
+        <button id="btn-create">Create Block</button>
+        <button id="btn-remove-last">Remove Last Block</button>
+        <button id="btn-remove-nth">Remove Nth Block</button>
+      </div>
+      
+      <div id="blocks-wrapper" class="blocks-wrapper">
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>
